@@ -15,7 +15,7 @@ This is a To-Do List application built using JavaScript. It allows users to add,
 ## 🛠 Technologies Used
 - HTML5
 - CSS3
-- JavaScript (ES6)
+- JavaScript 
 - localStorage
 
 ---

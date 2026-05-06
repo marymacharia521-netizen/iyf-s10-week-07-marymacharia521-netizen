@@ -1,11 +1,10 @@
-import { saveToStorage, getFromStorage } from "./storage.js";
-
 const STORAGE_KEY = "todos";
 
 export function loadTodos() {
-    return getFromStorage(STORAGE_KEY, []);
+    const data = localStorage.getItem(STORAGE_KEY);
+    return data ? JSON.parse(data) : [];
 }
 
 export function saveTodos(todos) {
-    saveToStorage(STORAGE_KEY, todos);
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(todos));
 }

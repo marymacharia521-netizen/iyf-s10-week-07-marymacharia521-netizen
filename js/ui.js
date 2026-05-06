@@ -13,6 +13,7 @@ export function renderTodos() {
             <span style="text-decoration:${todo.completed ? "line-through" : "none"}">
                 ${todo.text}
             </span>
+
             <button onclick="toggle(${todo.id})">✔</button>
             <button onclick="remove(${todo.id})">❌</button>
         `;
