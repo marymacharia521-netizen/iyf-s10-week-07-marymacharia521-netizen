@@ -3,7 +3,7 @@
 ## Author
 - **Name:** Mary Macharia
 - **GitHub:** [marymacharia521-netizen](https://github.com/marymacharia521-netizen/iyf-s10-week-07-marymacharia521-netizen.git)
-- **Live Demo:** 
+- **Live Demo:** https://marymacharia521-netizen.github.io/iyf-s10-week-07-marymacharia521-netizen/
 - **Date:** April 13, 2026
 
 ---
